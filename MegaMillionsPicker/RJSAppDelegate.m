@@ -8,6 +8,7 @@
 
 #import "RJSAppDelegate.h"
 #import "SCLotteryEngine.h"
+#import "SCParseLottoryResults.h"
 
 @implementation RJSAppDelegate
 
@@ -24,6 +25,10 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     _engine = [[SCLotteryEngine alloc] init];
+    SCParseLottoryResults *parser = [[SCParseLottoryResults alloc] init];
+    [parser retrieveLottoryResults];
+    [parser parseResults];
+    
  
 
 

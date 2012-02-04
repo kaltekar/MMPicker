@@ -10,4 +10,12 @@
 
 @interface SCParseLottoryResults : NSObject
 
+@property (strong) NSURL *url;
+@property (strong) NSString *file;
+@property (strong) NSString *results;
+@property (strong) NSArray *array;
+
+- (void) parseResults;
+- (void) retrieveLottoryResults;
+
 @end

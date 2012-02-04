@@ -94,8 +94,8 @@
 				8431B8E514DDC52B000AAB6A /* RJSAppDelegate.m */,
 				8431B8E614DDC52B000AAB6A /* SCLotteryEngine.h */,
 				8431B8E714DDC52B000AAB6A /* SCLotteryEngine.m */,
-				0013CD7014DDD15B00D5A76C /* SCParseLottoryResults.h */,
 				0013CD7114DDD15C00D5A76C /* SCParseLottoryResults.m */,
+				0013CD7014DDD15B00D5A76C /* SCParseLottoryResults.h */,
 				8431B8E814DDC52B000AAB6A /* testdata.csv */,
 				84874DEF14DCC7C9006641B6 /* Supporting Files */,
 			);
