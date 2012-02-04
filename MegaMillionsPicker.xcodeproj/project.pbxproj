@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0013CD7214DDD15C00D5A76C /* SCParseLottoryResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0013CD7114DDD15C00D5A76C /* SCParseLottoryResults.m */; };
 		8431B8E914DDC52B000AAB6A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8431B8DB14DDC52B000AAB6A /* Credits.rtf */; };
 		8431B8EB14DDC52B000AAB6A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8431B8DF14DDC52B000AAB6A /* MainMenu.xib */; };
 		8431B8EC14DDC52B000AAB6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431B8E114DDC52B000AAB6A /* main.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0013CD7014DDD15B00D5A76C /* SCParseLottoryResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCParseLottoryResults.h; sourceTree = SOURCE_ROOT; };
+		0013CD7114DDD15C00D5A76C /* SCParseLottoryResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCParseLottoryResults.m; sourceTree = SOURCE_ROOT; };
 		8431B8DC14DDC52B000AAB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = MegaMillionsPicker/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
 		8431B8DE14DDC52B000AAB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MegaMillionsPicker/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		8431B8E014DDC52B000AAB6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MegaMillionsPicker/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
@@ -91,6 +94,8 @@
 				8431B8E514DDC52B000AAB6A /* RJSAppDelegate.m */,
 				8431B8E614DDC52B000AAB6A /* SCLotteryEngine.h */,
 				8431B8E714DDC52B000AAB6A /* SCLotteryEngine.m */,
+				0013CD7014DDD15B00D5A76C /* SCParseLottoryResults.h */,
+				0013CD7114DDD15C00D5A76C /* SCParseLottoryResults.m */,
 				8431B8E814DDC52B000AAB6A /* testdata.csv */,
 				84874DEF14DCC7C9006641B6 /* Supporting Files */,
 			);
@@ -176,6 +181,7 @@
 				8431B8EC14DDC52B000AAB6A /* main.m in Sources */,
 				8431B8EE14DDC52B000AAB6A /* RJSAppDelegate.m in Sources */,
 				8431B8EF14DDC52B000AAB6A /* SCLotteryEngine.m in Sources */,
+				0013CD7214DDD15C00D5A76C /* SCParseLottoryResults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
