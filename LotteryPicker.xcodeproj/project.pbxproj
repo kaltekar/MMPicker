@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8423945E14DCCCC100EE315A /* SCLotteryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423945D14DCCCC100EE315A /* SCLotteryEngine.m */; };
+		84874DE914DCC7C9006641B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84874DE814DCC7C9006641B6 /* Cocoa.framework */; };
+		84874DF314DCC7C9006641B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84874DF114DCC7C9006641B6 /* InfoPlist.strings */; };
+		84874DF514DCC7C9006641B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84874DF414DCC7C9006641B6 /* main.m */; };
+		84874DF914DCC7C9006641B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84874DF714DCC7C9006641B6 /* Credits.rtf */; };
+		84874DFC14DCC7C9006641B6 /* RJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */; };
+		84874DFF14DCC7CA006641B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84874DFD14DCC7CA006641B6 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8423945C14DCCCC100EE315A /* SCLotteryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLotteryEngine.h; sourceTree = "<group>"; };
+		8423945D14DCCCC100EE315A /* SCLotteryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLotteryEngine.m; sourceTree = "<group>"; };
+		84874DE414DCC7C9006641B6 /* LotteryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84874DE814DCC7C9006641B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84874DEB14DCC7C9006641B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84874DEC14DCC7C9006641B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84874DED14DCC7C9006641B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84874DF014DCC7C9006641B6 /* LotteryPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LotteryPicker-Info.plist"; sourceTree = "<group>"; };
+		84874DF214DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84874DF414DCC7C9006641B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84874DF614DCC7C9006641B6 /* LotteryPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotteryPicker-Prefix.pch"; sourceTree = "<group>"; };
+		84874DF814DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84874DFA14DCC7C9006641B6 /* RJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSAppDelegate.h; sourceTree = "<group>"; };
+		84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSAppDelegate.m; sourceTree = "<group>"; };
+		84874DFE14DCC7CA006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84874DE114DCC7C9006641B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84874DE914DCC7C9006641B6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84874DD914DCC7C9006641B6 = {
+			isa = PBXGroup;
+			children = (
+				84874DEE14DCC7C9006641B6 /* LotteryPicker */,
+				84874DE714DCC7C9006641B6 /* Frameworks */,
+				84874DE514DCC7C9006641B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84874DE514DCC7C9006641B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84874DE414DCC7C9006641B6 /* LotteryPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84874DE714DCC7C9006641B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84874DE814DCC7C9006641B6 /* Cocoa.framework */,
+				84874DEA14DCC7C9006641B6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84874DEA14DCC7C9006641B6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84874DEB14DCC7C9006641B6 /* AppKit.framework */,
+				84874DEC14DCC7C9006641B6 /* CoreData.framework */,
+				84874DED14DCC7C9006641B6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84874DEE14DCC7C9006641B6 /* LotteryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8423945C14DCCCC100EE315A /* SCLotteryEngine.h */,
+				8423945D14DCCCC100EE315A /* SCLotteryEngine.m */,
+				84874DFA14DCC7C9006641B6 /* RJSAppDelegate.h */,
+				84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */,
+				84874DFD14DCC7CA006641B6 /* MainMenu.xib */,
+				84874DEF14DCC7C9006641B6 /* Supporting Files */,
+			);
+			path = LotteryPicker;
+			sourceTree = "<group>";
+		};
+		84874DEF14DCC7C9006641B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84874DF014DCC7C9006641B6 /* LotteryPicker-Info.plist */,
+				84874DF114DCC7C9006641B6 /* InfoPlist.strings */,
+				84874DF414DCC7C9006641B6 /* main.m */,
+				84874DF614DCC7C9006641B6 /* LotteryPicker-Prefix.pch */,
+				84874DF714DCC7C9006641B6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84874DE314DCC7C9006641B6 /* LotteryPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "LotteryPicker" */;
+			buildPhases = (
+				84874DE014DCC7C9006641B6 /* Sources */,
+				84874DE114DCC7C9006641B6 /* Frameworks */,
+				84874DE214DCC7C9006641B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryPicker;
+			productName = LotteryPicker;
+			productReference = 84874DE414DCC7C9006641B6 /* LotteryPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84874DDB14DCC7C9006641B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "LotteryPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84874DD914DCC7C9006641B6;
+			productRefGroup = 84874DE514DCC7C9006641B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84874DE314DCC7C9006641B6 /* LotteryPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84874DE214DCC7C9006641B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84874DF314DCC7C9006641B6 /* InfoPlist.strings in Resources */,
+				84874DF914DCC7C9006641B6 /* Credits.rtf in Resources */,
+				84874DFF14DCC7CA006641B6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84874DE014DCC7C9006641B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84874DF514DCC7C9006641B6 /* main.m in Sources */,
+				84874DFC14DCC7C9006641B6 /* RJSAppDelegate.m in Sources */,
+				8423945E14DCCCC100EE315A /* SCLotteryEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84874DF114DCC7C9006641B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84874DF214DCC7C9006641B6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84874DF714DCC7C9006641B6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84874DF814DCC7C9006641B6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84874DFD14DCC7CA006641B6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84874DFE14DCC7CA006641B6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84874E0014DCC7CA006641B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84874E0114DCC7CA006641B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84874E0314DCC7CA006641B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotteryPicker/LotteryPicker-Prefix.pch";
+				INFOPLIST_FILE = "LotteryPicker/LotteryPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84874E0414DCC7CA006641B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LotteryPicker/LotteryPicker-Prefix.pch";
+				INFOPLIST_FILE = "LotteryPicker/LotteryPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "LotteryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84874E0014DCC7CA006641B6 /* Debug */,
+				84874E0114DCC7CA006641B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "LotteryPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84874E0314DCC7CA006641B6 /* Debug */,
+				84874E0414DCC7CA006641B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84874DDB14DCC7C9006641B6 /* Project object */;
+}

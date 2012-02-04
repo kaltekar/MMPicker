@@ -16,7 +16,7 @@
     
 }
 
-@property (strong) NSMutableSet *numbers;
+@property (strong) NSMutableArray *numbers;
 @property (strong) NSMutableArray *megaBalls;
 ;
 

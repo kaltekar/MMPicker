@@ -22,45 +22,32 @@
     _numbers = nil;
     _megaBalls = nil;
     
-    NSMutableSet *set = [[NSMutableSet alloc] initWithCapacity:NUMBERS];
-    NSMutableArray *array = [[NSMutableArray alloc] initWithCapacity:MEGABALLS];
+    _numbers = [[NSMutableArray alloc] initWithCapacity:NUMBERS];
+    _megaBalls = [[NSMutableArray alloc] initWithCapacity:MEGABALLS];
     for (NSUInteger i = 1; i <= NUMBERS; i++) {
-        [set addObject:[NSNumber numberWithInteger:i]];
+        [self.numbers addObject:[NSNumber numberWithInteger:i]];
     }
     for (NSUInteger i = 1; i <= MEGABALLS; i++) {
-        [array addObject:[NSNumber numberWithInteger:i]];
+        [self.megaBalls addObject:[NSNumber numberWithInteger:i]];
     }        
-    _numbers = [NSMutableSet setWithSet:set];
-    _megaBalls = [NSMutableArray arrayWithArray:array];
-
 }
 
 -(NSArray *)picks {
     
     [self reset];
     
-	NSMutableArray *array = [[NSArray array] mutableCopy];
+	NSMutableArray *picks = [[NSArray array] mutableCopy];
     for (int i = 0; i < 5; i++) {
-
-        __block BOOL picked = NO;
-        while (!picked) {
-            NSUInteger value = arc4random() % NUMBERS;
-            //NSLog(@"Value: %lu", value);
-            [self.numbers enumerateObjectsUsingBlock:^(id obj, BOOL *stop){
-                if([obj integerValue]==value){
-                    [array addObject:obj];
-                    [self.numbers removeObject:obj];
-                    picked=YES;
-                    *stop=YES;
-                } 
-            } ];
-        }
+        NSUInteger index = arc4random() % [self.numbers count];
+        [picks addObject:[self.numbers objectAtIndex:index]];
+        [self.numbers removeObjectAtIndex:index];
     }
-    [array sortUsingDescriptors:[NSArray arrayWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"integerValue" ascending:YES], nil]];
     
-    [array addObject:[self.megaBalls objectAtIndex:arc4random() % MEGABALLS]];
-    NSLog(@"Count: %lu", [array count]);
- 	return array;
+    [picks sortUsingDescriptors:[NSArray arrayWithObjects:[NSSortDescriptor sortDescriptorWithKey:@"integerValue" ascending:YES], nil]];
+    
+    [picks addObject:[self.megaBalls objectAtIndex:arc4random() % MEGABALLS]];
+    
+ 	return picks;
 }
 
 @end
