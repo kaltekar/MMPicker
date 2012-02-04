@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SCParseLottoryResults : NSObject
+@interface SCParseLottoryResults : NSObject {
+    NSMutableData *incomingData;
+}
 
 @property (strong) NSURL *url;
 @property (strong) NSString *file;

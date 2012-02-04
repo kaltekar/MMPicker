@@ -14,6 +14,7 @@
 
 @synthesize window = _window;
 @synthesize engine = _engine;
+@synthesize parser = _parser;
 
 @synthesize ball1 = _ball1;
 @synthesize ball2 = _ball2;
@@ -22,12 +23,17 @@
 @synthesize ball5 = _ball5;
 @synthesize megaBall = _megaBall;
 
+- (void) parse {
+    [self.parser parseResults];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(parse) name:@"SCDidFinishRetrievingLottoData" object:nil];
     _engine = [[SCLotteryEngine alloc] init];
-    SCParseLottoryResults *parser = [[SCParseLottoryResults alloc] init];
-    [parser retrieveLottoryResults];
-    [parser parseResults];
+    _parser = [[SCParseLottoryResults alloc] init];
+    [self.parser retrieveLottoryResults];
+    //[parser parseResults];
     
  
 

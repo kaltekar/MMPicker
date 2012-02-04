@@ -9,11 +9,13 @@
 #import <Cocoa/Cocoa.h>
 
 @class SCLotteryEngine;
+@class SCParseLottoryResults;
 
 @interface RJSAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 @property (strong) SCLotteryEngine *engine;
+@property (nonatomic, strong) SCParseLottoryResults *parser;
 
 @property (weak) IBOutlet NSTextField *ball1;
 @property (weak) IBOutlet NSTextField *ball2;
