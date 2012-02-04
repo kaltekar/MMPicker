@@ -7,33 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8423945E14DCCCC100EE315A /* SCLotteryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423945D14DCCCC100EE315A /* SCLotteryEngine.m */; };
 		84874DE914DCC7C9006641B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84874DE814DCC7C9006641B6 /* Cocoa.framework */; };
-		84874DF314DCC7C9006641B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84874DF114DCC7C9006641B6 /* InfoPlist.strings */; };
-		84874DF514DCC7C9006641B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84874DF414DCC7C9006641B6 /* main.m */; };
-		84874DF914DCC7C9006641B6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84874DF714DCC7C9006641B6 /* Credits.rtf */; };
-		84874DFC14DCC7C9006641B6 /* RJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */; };
-		84874DFF14DCC7CA006641B6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84874DFD14DCC7CA006641B6 /* MainMenu.xib */; };
-		84CF2CBC14DD89860052060C /* testdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 84CF2CBB14DD89860052060C /* testdata.csv */; };
+		84CF2CD614DD92890052060C /* RJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2CD214DD92890052060C /* RJSAppDelegate.m */; };
+		84CF2CD714DD92890052060C /* SCLotteryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2CD414DD92890052060C /* SCLotteryEngine.m */; };
+		84CF2CDE14DD92DC0052060C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF2CDB14DD92DC0052060C /* main.m */; };
+		84CF2CEB14DD93360052060C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84CF2CE914DD93360052060C /* InfoPlist.strings */; };
+		84CF2CEC14DD93C60052060C /* testdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 84CF2CD514DD92890052060C /* testdata.csv */; };
+		84CF2CED14DD953F0052060C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CF2CE314DD932A0052060C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8423945C14DCCCC100EE315A /* SCLotteryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLotteryEngine.h; sourceTree = "<group>"; };
-		8423945D14DCCCC100EE315A /* SCLotteryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLotteryEngine.m; sourceTree = "<group>"; };
 		84874DE414DCC7C9006641B6 /* MegaMillionsPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaMillionsPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84874DE814DCC7C9006641B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		84874DEB14DCC7C9006641B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		84874DEC14DCC7C9006641B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		84874DED14DCC7C9006641B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		84874DF014DCC7C9006641B6 /* MegaMillionsPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaMillionsPicker-Info.plist"; sourceTree = "<group>"; };
-		84874DF214DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84874DF414DCC7C9006641B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84874DF614DCC7C9006641B6 /* MegaMillionsPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MegaMillionsPicker-Prefix.pch"; sourceTree = "<group>"; };
-		84874DF814DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		84874DFA14DCC7C9006641B6 /* RJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSAppDelegate.h; sourceTree = "<group>"; };
-		84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSAppDelegate.m; sourceTree = "<group>"; };
-		84874DFE14DCC7CA006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		84CF2CBB14DD89860052060C /* testdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testdata.csv; sourceTree = "<group>"; };
+		84CF2CD114DD92890052060C /* RJSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RJSAppDelegate.h; path = MegaMillionsPicker/RJSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		84CF2CD214DD92890052060C /* RJSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RJSAppDelegate.m; path = MegaMillionsPicker/RJSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		84CF2CD314DD92890052060C /* SCLotteryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLotteryEngine.h; path = MegaMillionsPicker/SCLotteryEngine.h; sourceTree = SOURCE_ROOT; };
+		84CF2CD414DD92890052060C /* SCLotteryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLotteryEngine.m; path = MegaMillionsPicker/SCLotteryEngine.m; sourceTree = SOURCE_ROOT; };
+		84CF2CD514DD92890052060C /* testdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testdata.csv; path = MegaMillionsPicker/testdata.csv; sourceTree = SOURCE_ROOT; };
+		84CF2CDB14DD92DC0052060C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MegaMillionsPicker/main.m; sourceTree = SOURCE_ROOT; };
+		84CF2CDC14DD92DC0052060C /* MegaMillionsPicker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MegaMillionsPicker-Info.plist"; path = "MegaMillionsPicker/MegaMillionsPicker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84CF2CDD14DD92DC0052060C /* MegaMillionsPicker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MegaMillionsPicker-Prefix.pch"; path = "MegaMillionsPicker/MegaMillionsPicker-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		84CF2CE414DD932A0052060C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MegaMillionsPicker/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		84CF2CE714DD93310052060C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = MegaMillionsPicker/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		84CF2CEA14DD93360052060C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MegaMillionsPicker/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,7 @@
 		84874DD914DCC7C9006641B6 = {
 			isa = PBXGroup;
 			children = (
-				84874DEE14DCC7C9006641B6 /* LotteryPicker */,
+				84874DEE14DCC7C9006641B6 /* MegaMillionsPicker */,
 				84874DE714DCC7C9006641B6 /* Frameworks */,
 				84874DE514DCC7C9006641B6 /* Products */,
 			);
@@ -84,28 +83,29 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		84874DEE14DCC7C9006641B6 /* LotteryPicker */ = {
+		84874DEE14DCC7C9006641B6 /* MegaMillionsPicker */ = {
 			isa = PBXGroup;
 			children = (
-				84CF2CBB14DD89860052060C /* testdata.csv */,
-				8423945C14DCCCC100EE315A /* SCLotteryEngine.h */,
-				8423945D14DCCCC100EE315A /* SCLotteryEngine.m */,
-				84874DFA14DCC7C9006641B6 /* RJSAppDelegate.h */,
-				84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */,
-				84874DFD14DCC7CA006641B6 /* MainMenu.xib */,
+				84CF2CE314DD932A0052060C /* MainMenu.xib */,
+				84CF2CD114DD92890052060C /* RJSAppDelegate.h */,
+				84CF2CD214DD92890052060C /* RJSAppDelegate.m */,
+				84CF2CD314DD92890052060C /* SCLotteryEngine.h */,
+				84CF2CD414DD92890052060C /* SCLotteryEngine.m */,
+				84CF2CD514DD92890052060C /* testdata.csv */,
 				84874DEF14DCC7C9006641B6 /* Supporting Files */,
 			);
+			name = MegaMillionsPicker;
 			path = LotteryPicker;
 			sourceTree = "<group>";
 		};
 		84874DEF14DCC7C9006641B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84874DF014DCC7C9006641B6 /* MegaMillionsPicker-Info.plist */,
-				84874DF114DCC7C9006641B6 /* InfoPlist.strings */,
-				84874DF414DCC7C9006641B6 /* main.m */,
-				84874DF614DCC7C9006641B6 /* MegaMillionsPicker-Prefix.pch */,
-				84874DF714DCC7C9006641B6 /* Credits.rtf */,
+				84CF2CDB14DD92DC0052060C /* main.m */,
+				84CF2CE914DD93360052060C /* InfoPlist.strings */,
+				84CF2CDC14DD92DC0052060C /* MegaMillionsPicker-Info.plist */,
+				84CF2CDD14DD92DC0052060C /* MegaMillionsPicker-Prefix.pch */,
+				84CF2CE614DD93310052060C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,10 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84874DF314DCC7C9006641B6 /* InfoPlist.strings in Resources */,
-				84874DF914DCC7C9006641B6 /* Credits.rtf in Resources */,
-				84874DFF14DCC7CA006641B6 /* MainMenu.xib in Resources */,
-				84CF2CBC14DD89860052060C /* testdata.csv in Resources */,
+				84CF2CED14DD953F0052060C /* MainMenu.xib in Resources */,
+				84CF2CEC14DD93C60052060C /* testdata.csv in Resources */,
+				84CF2CEB14DD93360052060C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,37 +173,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84874DF514DCC7C9006641B6 /* main.m in Sources */,
-				84874DFC14DCC7C9006641B6 /* RJSAppDelegate.m in Sources */,
-				8423945E14DCCCC100EE315A /* SCLotteryEngine.m in Sources */,
+				84CF2CD614DD92890052060C /* RJSAppDelegate.m in Sources */,
+				84CF2CD714DD92890052060C /* SCLotteryEngine.m in Sources */,
+				84CF2CDE14DD92DC0052060C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84874DF114DCC7C9006641B6 /* InfoPlist.strings */ = {
+		84CF2CE314DD932A0052060C /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84874DF214DCC7C9006641B6 /* en */,
+				84CF2CE414DD932A0052060C /* en */,
 			);
-			name = InfoPlist.strings;
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		84874DF714DCC7C9006641B6 /* Credits.rtf */ = {
+		84CF2CE614DD93310052060C /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84874DF814DCC7C9006641B6 /* en */,
+				84CF2CE714DD93310052060C /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		84874DFD14DCC7CA006641B6 /* MainMenu.xib */ = {
+		84CF2CE914DD93360052060C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84874DFE14DCC7CA006641B6 /* en */,
+				84CF2CEA14DD93360052060C /* en */,
 			);
-			name = MainMenu.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,8 +260,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LotteryPicker/MegaMillionsPicker-Prefix.pch";
-				INFOPLIST_FILE = "LotteryPicker/MegaMillionsPicker-Info.plist";
+				GCC_PREFIX_HEADER = "MegaMillionsPicker/MegaMillionsPicker-Prefix.pch";
+				INFOPLIST_FILE = "MegaMillionsPicker/MegaMillionsPicker-Info.plist";
 				PRODUCT_NAME = MegaMillionsPicker;
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,8 +271,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LotteryPicker/MegaMillionsPicker-Prefix.pch";
-				INFOPLIST_FILE = "LotteryPicker/MegaMillionsPicker-Info.plist";
+				GCC_PREFIX_HEADER = "MegaMillionsPicker/MegaMillionsPicker-Prefix.pch";
+				INFOPLIST_FILE = "MegaMillionsPicker/MegaMillionsPicker-Info.plist";
 				PRODUCT_NAME = MegaMillionsPicker;
 				WRAPPER_EXTENSION = app;
 			};
