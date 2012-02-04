@@ -20,15 +20,15 @@
 /* Begin PBXFileReference section */
 		8423945C14DCCCC100EE315A /* SCLotteryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLotteryEngine.h; sourceTree = "<group>"; };
 		8423945D14DCCCC100EE315A /* SCLotteryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLotteryEngine.m; sourceTree = "<group>"; };
-		84874DE414DCC7C9006641B6 /* LotteryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84874DE414DCC7C9006641B6 /* MegaMillionsPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaMillionsPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84874DE814DCC7C9006641B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		84874DEB14DCC7C9006641B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		84874DEC14DCC7C9006641B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		84874DED14DCC7C9006641B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		84874DF014DCC7C9006641B6 /* LotteryPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LotteryPicker-Info.plist"; sourceTree = "<group>"; };
+		84874DF014DCC7C9006641B6 /* MegaMillionsPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MegaMillionsPicker-Info.plist"; sourceTree = "<group>"; };
 		84874DF214DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84874DF414DCC7C9006641B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84874DF614DCC7C9006641B6 /* LotteryPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LotteryPicker-Prefix.pch"; sourceTree = "<group>"; };
+		84874DF614DCC7C9006641B6 /* MegaMillionsPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MegaMillionsPicker-Prefix.pch"; sourceTree = "<group>"; };
 		84874DF814DCC7C9006641B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		84874DFA14DCC7C9006641B6 /* RJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJSAppDelegate.h; sourceTree = "<group>"; };
 		84874DFB14DCC7C9006641B6 /* RJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJSAppDelegate.m; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		84874DE514DCC7C9006641B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84874DE414DCC7C9006641B6 /* LotteryPicker.app */,
+				84874DE414DCC7C9006641B6 /* MegaMillionsPicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +101,10 @@
 		84874DEF14DCC7C9006641B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84874DF014DCC7C9006641B6 /* LotteryPicker-Info.plist */,
+				84874DF014DCC7C9006641B6 /* MegaMillionsPicker-Info.plist */,
 				84874DF114DCC7C9006641B6 /* InfoPlist.strings */,
 				84874DF414DCC7C9006641B6 /* main.m */,
-				84874DF614DCC7C9006641B6 /* LotteryPicker-Prefix.pch */,
+				84874DF614DCC7C9006641B6 /* MegaMillionsPicker-Prefix.pch */,
 				84874DF714DCC7C9006641B6 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -113,9 +113,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84874DE314DCC7C9006641B6 /* LotteryPicker */ = {
+		84874DE314DCC7C9006641B6 /* MegaMillionsPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "LotteryPicker" */;
+			buildConfigurationList = 84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "MegaMillionsPicker" */;
 			buildPhases = (
 				84874DE014DCC7C9006641B6 /* Sources */,
 				84874DE114DCC7C9006641B6 /* Frameworks */,
@@ -125,9 +125,9 @@
 			);
 			dependencies = (
 			);
-			name = LotteryPicker;
+			name = MegaMillionsPicker;
 			productName = LotteryPicker;
-			productReference = 84874DE414DCC7C9006641B6 /* LotteryPicker.app */;
+			productReference = 84874DE414DCC7C9006641B6 /* MegaMillionsPicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "LotteryPicker" */;
+			buildConfigurationList = 84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "MegaMillionsPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84874DE314DCC7C9006641B6 /* LotteryPicker */,
+				84874DE314DCC7C9006641B6 /* MegaMillionsPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -261,9 +261,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LotteryPicker/LotteryPicker-Prefix.pch";
-				INFOPLIST_FILE = "LotteryPicker/LotteryPicker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LotteryPicker/MegaMillionsPicker-Prefix.pch";
+				INFOPLIST_FILE = "LotteryPicker/MegaMillionsPicker-Info.plist";
+				PRODUCT_NAME = MegaMillionsPicker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,9 +272,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LotteryPicker/LotteryPicker-Prefix.pch";
-				INFOPLIST_FILE = "LotteryPicker/LotteryPicker-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LotteryPicker/MegaMillionsPicker-Prefix.pch";
+				INFOPLIST_FILE = "LotteryPicker/MegaMillionsPicker-Info.plist";
+				PRODUCT_NAME = MegaMillionsPicker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -282,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "LotteryPicker" */ = {
+		84874DDE14DCC7C9006641B6 /* Build configuration list for PBXProject "MegaMillionsPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84874E0014DCC7CA006641B6 /* Debug */,
@@ -291,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "LotteryPicker" */ = {
+		84874E0214DCC7CA006641B6 /* Build configuration list for PBXNativeTarget "MegaMillionsPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84874E0314DCC7CA006641B6 /* Debug */,
