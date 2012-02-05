@@ -14,6 +14,7 @@
 		8431B8EE14DDC52B000AAB6A /* RJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431B8E514DDC52B000AAB6A /* RJSAppDelegate.m */; };
 		8431B8EF14DDC52B000AAB6A /* SCLotteryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431B8E714DDC52B000AAB6A /* SCLotteryEngine.m */; };
 		8431B8F014DDC52B000AAB6A /* testdata.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8431B8E814DDC52B000AAB6A /* testdata.csv */; };
+		8431B8FB14DDF574000AAB6A /* SCMMResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8431B8FA14DDF574000AAB6A /* SCMMResult.m */; };
 		84874DE914DCC7C9006641B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84874DE814DCC7C9006641B6 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		8431B8E614DDC52B000AAB6A /* SCLotteryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCLotteryEngine.h; path = MegaMillionsPicker/SCLotteryEngine.h; sourceTree = SOURCE_ROOT; };
 		8431B8E714DDC52B000AAB6A /* SCLotteryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCLotteryEngine.m; path = MegaMillionsPicker/SCLotteryEngine.m; sourceTree = SOURCE_ROOT; };
 		8431B8E814DDC52B000AAB6A /* testdata.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testdata.csv; path = MegaMillionsPicker/testdata.csv; sourceTree = SOURCE_ROOT; };
+		8431B8F914DDF574000AAB6A /* SCMMResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCMMResult.h; path = MegaMillionsPicker/SCMMResult.h; sourceTree = SOURCE_ROOT; };
+		8431B8FA14DDF574000AAB6A /* SCMMResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCMMResult.m; path = MegaMillionsPicker/SCMMResult.m; sourceTree = SOURCE_ROOT; };
 		84874DE414DCC7C9006641B6 /* MegaMillionsPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaMillionsPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84874DE814DCC7C9006641B6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		84874DEB14DCC7C9006641B6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -98,6 +101,8 @@
 				0013CD7014DDD15B00D5A76C /* SCParseLottoryResults.h */,
 				8431B8E814DDC52B000AAB6A /* testdata.csv */,
 				84874DEF14DCC7C9006641B6 /* Supporting Files */,
+				8431B8F914DDF574000AAB6A /* SCMMResult.h */,
+				8431B8FA14DDF574000AAB6A /* SCMMResult.m */,
 			);
 			name = MegaMillionsPicker;
 			path = LotteryPicker;
@@ -182,6 +187,7 @@
 				8431B8EE14DDC52B000AAB6A /* RJSAppDelegate.m in Sources */,
 				8431B8EF14DDC52B000AAB6A /* SCLotteryEngine.m in Sources */,
 				0013CD7214DDD15C00D5A76C /* SCParseLottoryResults.m in Sources */,
+				8431B8FB14DDF574000AAB6A /* SCMMResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

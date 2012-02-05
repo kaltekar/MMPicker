@@ -27,17 +27,17 @@
     [self.parser parseResults];
 }
 
+- (void) parseDidFinish {
+    NSLog(@"Parse did finish App Delegate");
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(parse) name:@"SCDidFinishRetrievingLottoData" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(parse) name:@"SCParseLotteryResultsDidFinishRetrievingLottoData" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(parseDidFinish) name:@"SCParseLotteryResultsParseDiDFinish" object:nil];
     _engine = [[SCLotteryEngine alloc] init];
     _parser = [[SCParseLottoryResults alloc] init];
     [self.parser retrieveLottoryResults];
-    //[parser parseResults];
-    
- 
-
-
 }
 
 - (IBAction)getPicks:(id)sender {

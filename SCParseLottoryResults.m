@@ -7,7 +7,7 @@
 //
 
 #import "SCParseLottoryResults.h"
-
+#import "SCMMResult.h"
 @implementation SCParseLottoryResults
 
 @synthesize url = _url;
@@ -16,11 +16,13 @@
 @synthesize array = _array;
 
 - (void) retrieveLottoryResults {
+    
     // Data from http://www.state.nj.us/lottery/data/big.dat
+    
     _file = [[NSBundle mainBundle] pathForResource:@"testdata" ofType:@"csv"];
-    NSLog(@"%@", _file);
+//    NSLog(@"%@", _file);
     _url = [NSURL URLWithString:@"http://www.state.nj.us/lottery/data/big.dat"];
-    NSLog(@"%@", _url);
+//    NSLog(@"%@", _url);
 //    _results = [NSString stringWithContentsOfFile:self.file encoding:NSASCIIStringEncoding error:nil];
 //    NSLog(@"%@", _results);
 //    
@@ -32,8 +34,20 @@
 
 - (void) parseResults {
 
-    NSMutableArray *array = [[self.results componentsSeparatedByString:@"\n"] mutableCopy];
-    NSLog(@"%@", array);
+    NSArray *array = [[self.results componentsSeparatedByString:@"\n"] mutableCopy];
+    NSMutableArray *results = [[NSMutableArray alloc] init];
+    
+    for (NSString *resultStr in array) {
+        SCMMResult *result = [[SCMMResult alloc] initWithFormatedString:resultStr];
+        if (result) {
+            [results addObject:result];
+        } else {
+            NSLog(@"String, %@, not properly formated.", resultStr);
+        }
+    }
+        NSLog(@"Parse did finish Parser");
+
+    [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"SCParseLotteryResultsParseDiDFinish"  object:nil]];
     
 }
 
@@ -60,7 +74,7 @@
     
     incomingData = nil;
 
-    [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"SCDidFinishRetrievingLottoData" object:nil]];
+    [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"SCParseLotteryResultsDidFinishRetrievingLottoData" object:nil]];
 }
 
 // Called if the fetchfails
