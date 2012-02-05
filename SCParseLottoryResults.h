@@ -11,11 +11,12 @@
 @interface SCParseLottoryResults : NSObject {
     NSMutableData *incomingData;
 }
-
+/*
 @property (strong) NSURL *url;
 @property (strong) NSString *file;
+ */
 @property (strong) NSString *results;
-@property (strong) NSArray *array;
+@property (strong) NSArray *parsedResultsArray;
 
 - (void) parseResults;
 - (void) retrieveLottoryResults;

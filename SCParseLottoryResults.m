@@ -9,24 +9,23 @@
 #import "SCParseLottoryResults.h"
 #import "SCMMResult.h"
 @implementation SCParseLottoryResults
-
+/*
 @synthesize url = _url;
 @synthesize file = _file;
+ */
 @synthesize results = _results;
-@synthesize array = _array;
+@synthesize parsedResultsArray = _parsedResultsArray;
 
 - (void) retrieveLottoryResults {
     
     // Data from http://www.state.nj.us/lottery/data/big.dat
-    
-    _file = [[NSBundle mainBundle] pathForResource:@"testdata" ofType:@"csv"];
+
+    NSString *file = [[NSBundle mainBundle] pathForResource:@"big" ofType:@"dat"];
 //    NSLog(@"%@", _file);
-    _url = [NSURL URLWithString:@"http://www.state.nj.us/lottery/data/big.dat"];
-//    NSLog(@"%@", _url);
-//    _results = [NSString stringWithContentsOfFile:self.file encoding:NSASCIIStringEncoding error:nil];
-//    NSLog(@"%@", _results);
-//    
-    NSURLRequest *request = [NSURLRequest requestWithURL:self.url];
+    NSURL *url = [NSURL fileURLWithPath:file];
+    
+//    NSURL *url = [NSURL URLWithString:@"http://www.state.nj.us/lottery/data/big.dat"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     __unused NSURLConnection *fetchConn = [[NSURLConnection alloc] initWithRequest:request delegate:self startImmediately:YES];
 
@@ -47,6 +46,8 @@
     }
         NSLog(@"Parse did finish Parser");
 
+    _parsedResultsArray = results;
+    
     [[NSNotificationCenter defaultCenter] postNotification:[NSNotification notificationWithName:@"SCParseLotteryResultsParseDiDFinish"  object:nil]];
     
 }

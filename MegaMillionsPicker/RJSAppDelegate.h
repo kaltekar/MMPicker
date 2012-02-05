@@ -16,6 +16,7 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (strong) SCLotteryEngine *engine;
 @property (nonatomic, strong) SCParseLottoryResults *parser;
+@property (strong) NSArray *historicalResultsArray;
 
 @property (weak) IBOutlet NSTextField *ball1;
 @property (weak) IBOutlet NSTextField *ball2;
@@ -23,6 +24,7 @@
 @property (weak) IBOutlet NSTextField *ball4;
 @property (weak) IBOutlet NSTextField *ball5;
 @property (weak) IBOutlet NSTextField *megaBall;
+@property (weak) IBOutlet NSTextField *historyLabel;
 
 - (IBAction)getPicks:(id)sender;
 
